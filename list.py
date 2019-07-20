@@ -59,7 +59,7 @@ class Course:
 
         else:
             for key in course_dict:
-                print(key + str(course_dict[key]))
+                print(str(course_dict[key]))
 
 
     def sortKeys(self, course_dict):
